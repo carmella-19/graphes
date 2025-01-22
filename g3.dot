@@ -1,7 +1,21 @@
 graph {
+graph [scale="3"];
+node [image="icon_router.png" shape="none" fixedsize="true" width="0.8"];
+edge [fontsize="20pt" color="black"];
+
+
+F[pos="1,2.5"];
+G[pos="1.5,6"];
+H[pos="4,8.5"];
+B[pos="7,8"];
+A[pos="10,5.5"];
+C[pos="7,4"];
+D[pos="4,4"];
+E[pos="4.5,1"];
+
 B--G [label="4"];
 B--H [label="2"];
-H--G [label="14"];
+G--H [label="14"];
 G--F [label="6"];
 F--D [label="3"];
 G--D [label="1"];
@@ -13,4 +27,5 @@ C--A [label="4"];
 D--E [label="1"];
 F--E [label="1"];
 E--C [label="3"];
+
 }
