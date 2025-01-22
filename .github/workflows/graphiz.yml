@@ -15,4 +15,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: test-upload
-        path: github/workflows/graphiz.yml
+        path: g3.svg
+
